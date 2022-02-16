@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 [
   {
     "category": {
@@ -193,3 +194,115 @@
   }
 ]
 >>>>>>> 6ba3228f4dc76fedac997dc1293a8a1c5812baf6
+=======
+[
+  {
+    "category": {
+      "javascript": [
+        {
+          "id": 1,
+          "category": "react native ",
+          "titel": "background task",
+          "contentLink": "/tutorial/gnupg.md",
+          "image": "https://www.inovex.de/wp-content/uploads/2022/01/one-year-of-react-native-1500x880.png"
+        },
+        {
+          "id": 3,
+          "category": "web ",
+          "titel": "Dom vs Bom",
+          "contentLink": "/tutorial/domvsbom.md",
+          "image": "https://www.inovex.de/wp-content/uploads/2022/01/one-year-of-react-native-1500x880.png"
+        },
+        {
+          "id": 4,
+          "category": "fiture ",
+          "titel": "login with react",
+          "contentLink": "/tutorial/email-system-nodejs",
+          "image": "https://www.inovex.de/wp-content/uploads/2022/01/one-year-of-react-native-1500x880.png"
+        }
+      ],
+      "nodejs": [
+        {
+          "id": 1,
+          "category": "node js ",
+          "titel": "background task",
+          "contentLink": "/tutorial/github-cheat-sheet",
+          "image": "https://www.inovex.de/wp-content/uploads/2022/01/one-year-of-react-native-1500x880.png"
+        },
+        {
+          "id": 2,
+          "category": "Expressjs ",
+          "titel": "cheat sheet",
+          "contentLink": "/tutorial/Expressjs.md",
+          "image": "https://www.inovex.de/wp-content/uploads/2022/01/one-year-of-react-native-1500x880.png"
+        }  
+      ]
+      ,
+      "react": [
+        {
+          "id": 1,
+          "category": "react  ",
+          "titel": "background task",
+          "contentLink": "/tutorial/github-cheat-sheet",
+          "image": "https://www.inovex.de/wp-content/uploads/2022/01/one-year-of-react-native-1500x880.png"
+        } 
+      ]
+      ,
+      "reactnative": [
+        {
+          "id": 1,
+          "category": "react native ",
+          "titel": "react native ui",
+          "contentLink": "/tutorial/reactnativeui.md",
+          "image": "https://www.inovex.de/wp-content/uploads/2022/01/one-year-of-react-native-1500x880.png"
+        } 
+      ]
+      ,
+      "database": [
+        {
+          "id": 1,
+          "category": "mongo",
+          "titel": "mongo db",
+          "contentLink": "/tutorial/mongodb.md",
+          "image": "https://www.inovex.de/wp-content/uploads/2022/01/one-year-of-react-native-1500x880.png"
+        } 
+      ]
+      ,
+      "algorithms": [
+        {
+          "id": 1,
+          "category": "algo ",
+          "titel": "background task",
+          "contentLink": "/tutorial/github-cheat-sheet",
+          "image": "https://www.inovex.de/wp-content/uploads/2022/01/one-year-of-react-native-1500x880.png"
+        } 
+      ]
+      ,
+      "software": [
+        {
+          "id": 1,
+          "category": "oop ",
+          "titel": "oop prinsipal",
+          "contentLink": "/tutorial/oop.md",
+          "image": "https://www.inovex.de/wp-content/uploads/2022/01/one-year-of-react-native-1500x880.png"
+        },
+        {
+           "id": 2,
+           "category": "python ",
+           "titel": "python cheat",
+           "contentLink": "/tutorial/git-branch.md",
+           "image": "https://www.inovex.de/wp-content/uploads/2022/01/one-year-of-react-native-1500x880.png"
+         },
+         {
+            "id": 2,
+            "category": "projects ",
+            "titel": "Recommender system",
+            "contentLink": "/tutorial/Recommendersystem.md",
+            "image": "https://www.inovex.de/wp-content/uploads/2022/01/one-year-of-react-native-1500x880.png"
+          } 
+      ]
+       
+    } 
+  }
+]
+>>>>>>> 88283d907fd210788d01a868c49acf2f3cf43007
