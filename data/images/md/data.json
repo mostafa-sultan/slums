@@ -22,13 +22,6 @@
           "titel": "JavaScript Data Structure",
           "contentLink": "/tutorial/javascriptdatastructure.md",
           "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/data.png"
-        },
-        {
-          "id": 5,
-          "category": "web ",
-          "titel": "Dom vs Bom",
-          "contentLink": "/tutorial/domvsbom.md",
-          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/dom.png"
         } 
       ],
       "nodejs": [
