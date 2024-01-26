@@ -26,7 +26,7 @@
       ],
       "nodejs": [
         {
-          "id": 1,
+          "id": 4,
           "category": "node js ",
           "titel": "Node Js ",
           "contentLink": "/tutorial/nodetutorial.md",
@@ -36,7 +36,7 @@
       ,
       "react": [
         {
-          "id": 1,
+          "id": 5,
           "category": "react  ",
           "titel": "Login Component with React",
           "contentLink": "/tutorial/logincomponentreact.md",
@@ -46,7 +46,7 @@
       ,
       "reactnative": [
         {
-          "id": 1,
+          "id": 6,
           "category": "react native ",
           "titel": "react native 20 questions",
           "contentLink": "/tutorial/reactnativequestions.md",
@@ -56,7 +56,7 @@
       ,
       "database": [
         {
-          "id": 1,
+          "id": 7,
           "category": "mongo",
           "titel": "Mongo DB",
           "contentLink": "/tutorial/mongo.md",
@@ -66,7 +66,7 @@
       ,
       "algorithms": [
         {
-          "id": 1,
+          "id": 8,
           "category": "datastructure",
           "titel": "JavaScript Data Structure",
           "contentLink": "/tutorial/javascriptdatastructure.md",
@@ -76,14 +76,14 @@
       ,
       "software": [
         {
-          "id": 2,
+          "id": 9,
           "category": "web ",
           "titel": "Dom Vs Bom",
           "contentLink": "/tutorial/domandbom.md",
           "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/dom.png"
         },
         {
-          "id": 2,
+          "id": 11,
           "category": "react native ",
           "titel": "react native 20 questions",
           "contentLink": "/tutorial/reactnativeui.md",
