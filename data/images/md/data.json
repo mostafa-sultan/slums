@@ -4,106 +4,50 @@
       "javascript": [
         {
           "id": 1,
-          "category": "react native ",
-          "titel": "background task",
-          "contentLink": "/tutorial/gnupg.md",
-          "image": "https://www.clipartmax.com/png/full/212-2123403_australian-shepherd-miniature-american-shepherd-german-miniature-american-shepherd-cartoon.png"
+          "category": "javascript ",
+          "titel": "JavaScript",
+          "contentLink": "/tutorial/javascript.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/tech.png"
         },
         {
-          "id": 3,
+          "id": 2,
           "category": "web ",
           "titel": "Dom Vs Bom",
-          "contentLink": "/tutorial/domvsbom.md",
+          "contentLink": "/tutorial/domandbom.md",
           "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/dom.png"
         },
         {
-          "id": 4,
-          "category": "fiture ",
-          "titel": "login with react",
-          "contentLink": "/tutorial/email-system-nodejs",
-          "image": "https://www.inovex.de/wp-content/uploads/2022/01/one-year-of-react-native-1500x880.png"
+          "id": 3,
+          "category": "datastructure",
+          "titel": "JavaScript Data Structure",
+          "contentLink": "/tutorial/javascriptdatastructure.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/data.png"
         },
         {
           "id": 5,
           "category": "web ",
           "titel": "Dom vs Bom",
           "contentLink": "/tutorial/domvsbom.md",
-          "image": "https://www.inovex.de/wp-content/uploads/2022/01/one-year-of-react-native-1500x880.png"
-        },
-        {
-          "id": 6,
-          "category": "fiture ",
-          "titel": "login with react",
-          "contentLink": "/tutorial/email-system-nodejs",
-          "image": "https://www.inovex.de/wp-content/uploads/2022/01/one-year-of-react-native-1500x880.png"
-        },
-        {
-          "id": 7,
-          "category": "web ",
-          "titel": "Dom vs Bom",
-          "contentLink": "/tutorial/domvsbom.md",
-          "image": "https://www.inovex.de/wp-content/uploads/2022/01/one-year-of-react-native-1500x880.png"
-        },
-        {
-          "id": 8,
-          "category": "fiture ",
-          "titel": "login with react",
-          "contentLink": "/tutorial/email-system-nodejs",
-          "image": "https://www.inovex.de/wp-content/uploads/2022/01/one-year-of-react-native-1500x880.png"
-        },
-        {
-          "id": 9,
-          "category": "web ",
-          "titel": "Dom vs Bom",
-          "contentLink": "/tutorial/domvsbom.md",
-          "image": "https://www.inovex.de/wp-content/uploads/2022/01/one-year-of-react-native-1500x880.png"
-        },
-        {
-          "id": 10,
-          "category": "fiture ",
-          "titel": "login with react",
-          "contentLink": "/tutorial/email-system-nodejs",
-          "image": "https://www.inovex.de/wp-content/uploads/2022/01/one-year-of-react-native-1500x880.png"
-        },
-        {
-          "id": 11,
-          "category": "web ",
-          "titel": "Dom vs Bom",
-          "contentLink": "/tutorial/domvsbom.md",
-          "image": "https://www.inovex.de/wp-content/uploads/2022/01/one-year-of-react-native-1500x880.png"
-        },
-        {
-          "id": 12,
-          "category": "fiture ",
-          "titel": "login with react",
-          "contentLink": "/tutorial/email-system-nodejs",
-          "image": "https://www.inovex.de/wp-content/uploads/2022/01/one-year-of-react-native-1500x880.png"
-        }
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/dom.png"
+        } 
       ],
       "nodejs": [
         {
           "id": 1,
           "category": "node js ",
-          "titel": "background task",
-          "contentLink": "/tutorial/github-cheat-sheet",
-          "image": "https://www.inovex.de/wp-content/uploads/2022/01/one-year-of-react-native-1500x880.png"
-        },
-        {
-          "id": 2,
-          "category": "Expressjs ",
-          "titel": "cheat sheet",
-          "contentLink": "/tutorial/Expressjs.md",
-          "image": "https://www.inovex.de/wp-content/uploads/2022/01/one-year-of-react-native-1500x880.png"
-        }  
+          "titel": "Node Js ",
+          "contentLink": "/tutorial/nodetutorial.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/tech.png"
+        } 
       ]
       ,
       "react": [
         {
           "id": 1,
           "category": "react  ",
-          "titel": "background task",
-          "contentLink": "/tutorial/github-cheat-sheet",
-          "image": "https://www.inovex.de/wp-content/uploads/2022/01/one-year-of-react-native-1500x880.png"
+          "titel": "Login Component with React",
+          "contentLink": "/tutorial/logincomponentreact.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/react.png"
         } 
       ]
       ,
@@ -111,9 +55,9 @@
         {
           "id": 1,
           "category": "react native ",
-          "titel": "react native ui",
+          "titel": "react native 20 questions",
           "contentLink": "/tutorial/reactnativeui.md",
-          "image": "https://www.inovex.de/wp-content/uploads/2022/01/one-year-of-react-native-1500x880.png"
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/react.png"
         } 
       ]
       ,
@@ -121,44 +65,37 @@
         {
           "id": 1,
           "category": "mongo",
-          "titel": "mongo db",
-          "contentLink": "/tutorial/mongodb.md",
-          "image": "https://www.inovex.de/wp-content/uploads/2022/01/one-year-of-react-native-1500x880.png"
+          "titel": "Mongo DB",
+          "contentLink": "/tutorial/mongo.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/db.png"
         } 
       ]
       ,
       "algorithms": [
         {
           "id": 1,
-          "category": "algo ",
-          "titel": "background task",
-          "contentLink": "/tutorial/github-cheat-sheet",
-          "image": "https://www.inovex.de/wp-content/uploads/2022/01/one-year-of-react-native-1500x880.png"
-        } 
+          "category": "datastructure",
+          "titel": "JavaScript Data Structure",
+          "contentLink": "/tutorial/javascriptdatastructure.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/data.png"
+       } 
       ]
       ,
       "software": [
         {
-          "id": 1,
-          "category": "oop ",
-          "titel": "oop prinsipal",
-          "contentLink": "/tutorial/oop.md",
-          "image": "https://www.inovex.de/wp-content/uploads/2022/01/one-year-of-react-native-1500x880.png"
+          "id": 2,
+          "category": "web ",
+          "titel": "Dom Vs Bom",
+          "contentLink": "/tutorial/domandbom.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/dom.png"
         },
         {
-           "id": 2,
-           "category": "python ",
-           "titel": "python cheat",
-           "contentLink": "/tutorial/git-branch.md",
-           "image": "https://www.inovex.de/wp-content/uploads/2022/01/one-year-of-react-native-1500x880.png"
-         },
-         {
-            "id": 2,
-            "category": "projects ",
-            "titel": "Recommender system",
-            "contentLink": "/tutorial/Recommendersystem.md",
-            "image": "https://www.inovex.de/wp-content/uploads/2022/01/one-year-of-react-native-1500x880.png"
-          } 
+          "id": 2,
+          "category": "react native ",
+          "titel": "react native 20 questions",
+          "contentLink": "/tutorial/reactnativeui.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/react.png"
+        }  
       ]
        
     } 
