@@ -80,6 +80,133 @@ const styles = StyleSheet.create({
 
 export default Index;
 
+
+
+
+import React, { useEffect, useRef, useState } from 'react';
+import { FlatList, StyleSheet, Text, View, Image, useWindowDimensions, Animated } from 'react-native';
+import { ExpandingDot } from "react-native-animated-pagination-dots";
+
+const onBoardingData = [{
+  id: 0,
+  img: 'https://i.ibb.co/5TfwKGV/Group-14224.png',
+  title: 'Welcome in our restaurant app.',
+  describtion: "lorimlorim lorimlorim lorimlorim lorimlorim lorimlorim lorimlorim ",
+}, {
+  id: 1,
+  img: 'https://i.ibb.co/3pqZ7mx/Group.png',
+  title: 'Welcome in our restaurant app.',
+  describtion: "lorimlorim lorimlorim lorimlorim lorimlorim lorimlorim lorimlorim ",
+}, {
+  id: 2,
+  img: 'https://i.ibb.co/dgyDCd6/Group-1.png',
+  title: 'Welcome in our restaurant app.',
+  describtion: "lorimlorim lorimlorim lorimlorim lorimlorim lorimlorim lorimlorim ",
+}];
+const SlideComp = ({ item }) => {
+  const { width } = useWindowDimensions();
+  return (
+    <View style={[styles.container1, { width }]}>
+      <Image source={{ uri: item.img }} style={[styles.image1, { width, resizeMod: 'contain' }]} />
+      {/* source={{ uri: splashData.logo }} */}
+      <View style={{ flex: 0.3 }}>
+        <Text style={styles.title1}>{item.title}</Text>
+        <Text style={styles.describtion1}>{item.describtion}</Text>
+      </View>
+    </View>
+
+  )
+}
+const Index = () => {
+  const [current, setCurrent] = useState(0)
+
+  scrollX = useRef(new Animated.Value(0)).current
+
+  const slideRef = useRef(null);
+
+  const viewableItemsChanged = useRef(({ viewableItems }) => {
+    setCurrent(viewableItems[0]?.index)
+  }).current
+
+  const viewconfig = useRef({ viewAreaCoveragePercentThreshold: 50 }).current
+  return (
+    <View style={styles.container}>
+      <Text>Ingrgdex</Text>
+      <FlatList
+        data={onBoardingData}
+        renderItem={({ item }) => <SlideComp item={item} />}
+        horizontal
+        pagingEnabled
+        showsHorizontalScrollIndicator
+        bounces={false}
+        keyExtractor={(item) => item.id}
+        // onScroll={Animated.event([{ nativeEvent: { contentOffset: { x: scrollX } } }], {
+        //   useNativeDriver: false
+        // })}
+        onScroll={Animated.event(
+          [{ nativeEvent: { contentOffset: { x: scrollX } } }],
+          {
+            useNativeDriver: false,
+          }
+        )}
+        onViewableItemsChanged={viewableItemsChanged}
+        viewabilityConfig={viewconfig}
+        scrollEventThrottle={32}
+        ref={slideRef}
+      />
+      <ExpandingDot
+        data={onBoardingData}
+        expandingDotWidth={30}
+        scrollX={scrollX}
+        inActiveDotOpacity={0.6}
+        dotStyle={{
+          width: 10,
+          height: 10,
+          backgroundColor: '#347af0',
+          borderRadius: 5,
+          marginHorizontal: 5
+        }}
+        containerStyle={{
+          marginBottom : 80,
+        }}
+      />
+    </View>
+  );
+};
+
+export default Index;
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  container1: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  image1: {
+    flex: 0.3,
+    justifyContent: 'center'
+  },
+  title1: {
+    fontWeight: '800',
+    fontSize: 28,
+    marginBottom: 10,
+    textAlign: 'center',
+  },
+  describtion1: {
+    fontWeight: '300',
+    color: '#62656',
+    textAlign: 'center',
+    paddingHorizontal: 64,
+  }
+});
+
+// https://www.youtube.com/watch?v=SLbay2efwso
+
 ---
 title: Absinthe
 category: Hidden
