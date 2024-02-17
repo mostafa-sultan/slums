@@ -1,3 +1,85 @@
+import React from 'react';
+import { StyleSheet, View, Text, TouchableOpacity, Dimensions} from 'react-native';
+import FastImage from 'react-native-fast-image';
+
+const splashData = {
+  background: 'https://i.ibb.co/FKyTQH9/1.png',
+  logo: 'https://i.ibb.co/Z1GnkfM/2.png',
+  title: 'Welcome in our restaurant app.',
+};
+const windowWidth = Dimensions.get('window').width;
+const loginButtonWidth = windowWidth * 0.8; 
+
+const Index = () => {
+  return (
+    <View style={styles.container}>
+      <FastImage
+        style={styles.backgroundImage}
+        source={{
+          uri: splashData.background,
+          priority: FastImage.priority.high,
+        }}
+        resizeMode={FastImage.resizeMode.cover}
+      />
+      <View style={styles.contentContainer}>
+        <View style={styles.detailsContainer}>
+          <FastImage
+            style={styles.logoImage}
+            source={{ uri: splashData.logo }}
+            resizeMode={FastImage.resizeMode.contain} />
+          <Text style={styles.title}>{splashData.title}</Text> 
+            <TouchableOpacity style={styles.loginButton}
+              onPress={() => console.log("Login button pressed")}
+            >
+              <Text style={styles.loginButtonText}>Start</Text>
+            </TouchableOpacity> 
+        </View>
+      </View>
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+  backgroundImage: {
+    ...StyleSheet.absoluteFillObject,
+  },
+  contentContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  detailsContainer: {
+    marginTop:80,
+    alignItems: 'center',
+  },
+  logoImage: {
+    aspectRatio: 1.7,
+    height: '28%',
+  },
+  title: {
+    fontSize: 18, 
+    fontWeight:'bold',
+    color:"#000",
+  }, 
+  loginButton: {
+    backgroundColor: 'red',
+    width: loginButtonWidth,
+    paddingVertical: 13, 
+    borderRadius: 8, 
+    marginTop:100,
+  },
+  loginButtonText: {
+    color: '#fff',
+    fontSize: 16,
+    alignSelf: 'center'
+  },
+});
+
+export default Index;
+
 ---
 title: Absinthe
 category: Hidden
