@@ -4,8 +4,8 @@
       "javascript": [
         {
           "id": 1,
-          "category": "javhjghjascript ",
-          "titel": "JavaScrigghjpt",
+          "category": "javascript ",
+          "titel": "JavaScript",
           "contentLink": "/tutorial/javascript.md",
           "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/tech.png"
         },
