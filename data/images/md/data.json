@@ -22,7 +22,42 @@
           "titel": "JavaScript Data Structure",
           "contentLink": "/tutorial/javascriptdatastructure.md",
           "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/data.png"
-        } 
+        },
+        {
+          "id": 10,
+          "category": "javascript ",
+          "titel": "JavaScript Closures",
+          "contentLink": "/tutorial/javascriptclosures.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/js.png"
+        },
+        {
+          "id": 11,
+          "category": "javascript ",
+          "titel": "JavaScript Promises",
+          "contentLink": "/tutorial/javascriptpromises.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/js.png"
+        },
+        {
+          "id": 12,
+          "category": "javascript ",
+          "titel": "ES6+ Features",
+          "contentLink": "/tutorial/javascriptes6.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/js.png"
+        },
+        {
+          "id": 13,
+          "category": "javascript ",
+          "titel": "Understanding 'this'",
+          "contentLink": "/tutorial/javascriptthis.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/js.png"
+        },
+        {
+          "id": 14,
+          "category": "javascript ",
+          "titel": "JavaScript Prototypes",
+          "contentLink": "/tutorial/javascriptprototypes.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/js.png"
+        }
       ],
       "nodejs": [
         {
@@ -31,9 +66,57 @@
           "titel": "Node Js ",
           "contentLink": "/tutorial/nodetutorial.md",
           "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/tech.png"
-        } 
-      ]
-      ,
+        },
+        {
+          "id": 15,
+          "category": "node js ",
+          "titel": "REST API with Express",
+          "contentLink": "/tutorial/nodejsrestapi.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/tech.png"
+        },
+        {
+          "id": 16,
+          "category": "node js ",
+          "titel": "Express Middleware",
+          "contentLink": "/tutorial/nodejsmiddleware.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/tech.png"
+        },
+        {
+          "id": 17,
+          "category": "node js ",
+          "titel": "Authentication & Authorization",
+          "contentLink": "/tutorial/nodejsauthentication.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/tech.png"
+        },
+        {
+          "id": 18,
+          "category": "node js ",
+          "titel": "File Upload",
+          "contentLink": "/tutorial/nodejsfileupload.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/tech.png"
+        },
+        {
+          "id": 19,
+          "category": "node js ",
+          "titel": "WebSockets",
+          "contentLink": "/tutorial/nodejswebsockets.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/tech.png"
+        },
+        {
+          "id": 20,
+          "category": "node js ",
+          "titel": "Environment Variables",
+          "contentLink": "/tutorial/nodejsenvironment.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/tech.png"
+        },
+        {
+          "id": 21,
+          "category": "node js ",
+          "titel": "Error Handling",
+          "contentLink": "/tutorial/nodejserrorhandling.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/tech.png"
+        }
+      ],
       "react": [
         {
           "id": 5,
@@ -41,9 +124,43 @@
           "titel": "Login Component with React",
           "contentLink": "/tutorial/logincomponentreact.md",
           "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/react.png"
-        } 
-      ]
-      ,
+        },
+        {
+          "id": 22,
+          "category": "react  ",
+          "titel": "React Hooks",
+          "contentLink": "/tutorial/reacthooks.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/react.png"
+        },
+        {
+          "id": 23,
+          "category": "react  ",
+          "titel": "React Router",
+          "contentLink": "/tutorial/reactrouting.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/react.png"
+        },
+        {
+          "id": 24,
+          "category": "react  ",
+          "titel": "State Management",
+          "contentLink": "/tutorial/reactstate.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/react.png"
+        },
+        {
+          "id": 25,
+          "category": "react  ",
+          "titel": "Performance Optimization",
+          "contentLink": "/tutorial/reactperformance.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/react.png"
+        },
+        {
+          "id": 26,
+          "category": "react  ",
+          "titel": "Testing React",
+          "contentLink": "/tutorial/reacttesting.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/react.png"
+        }
+      ],
       "reactnative": [
         {
           "id": 6,
@@ -51,9 +168,43 @@
           "titel": "react native 20 questions",
           "contentLink": "/tutorial/reactnativequestions.md",
           "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/react.png"
-        } 
-      ]
-      ,
+        },
+        {
+          "id": 27,
+          "category": "react native ",
+          "titel": "React Native Components",
+          "contentLink": "/tutorial/reactnativecomponents.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/react.png"
+        },
+        {
+          "id": 28,
+          "category": "react native ",
+          "titel": "Styling in React Native",
+          "contentLink": "/tutorial/reactnativestyling.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/react.png"
+        },
+        {
+          "id": 29,
+          "category": "react native ",
+          "titel": "AsyncStorage",
+          "contentLink": "/tutorial/reactnativeasyncstorage.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/react.png"
+        },
+        {
+          "id": 30,
+          "category": "react native ",
+          "titel": "Navigation",
+          "contentLink": "/tutorial/reactnativenavigation.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/react.png"
+        },
+        {
+          "id": 31,
+          "category": "react native ",
+          "titel": "API Integration",
+          "contentLink": "/tutorial/reactnativeapis.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/react.png"
+        }
+      ],
       "database": [
         {
           "id": 7,
@@ -61,9 +212,43 @@
           "titel": "Mongo DB",
           "contentLink": "/tutorial/mongo.md",
           "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/db.png"
-        } 
-      ]
-      ,
+        },
+        {
+          "id": 32,
+          "category": "mongo",
+          "titel": "Advanced MongoDB Queries",
+          "contentLink": "/tutorial/mongodbqueries.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/db.png"
+        },
+        {
+          "id": 33,
+          "category": "mongo",
+          "titel": "MongoDB Indexing",
+          "contentLink": "/tutorial/mongodbindexing.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/db.png"
+        },
+        {
+          "id": 34,
+          "category": "mongo",
+          "titel": "Aggregation Framework",
+          "contentLink": "/tutorial/mongodbaggregation.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/db.png"
+        },
+        {
+          "id": 35,
+          "category": "mongo",
+          "titel": "MongoDB Relationships",
+          "contentLink": "/tutorial/mongodbrelationships.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/db.png"
+        },
+        {
+          "id": 36,
+          "category": "mongo",
+          "titel": "Performance Optimization",
+          "contentLink": "/tutorial/mongodbperformance.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/db.png"
+        }
+      ],
       "algorithms": [
         {
           "id": 8,
@@ -71,9 +256,43 @@
           "titel": "JavaScript Data Structure",
           "contentLink": "/tutorial/javascriptdatastructure.md",
           "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/data.png"
-       } 
-      ]
-      ,
+        },
+        {
+          "id": 37,
+          "category": "algorithms",
+          "titel": "Sorting Algorithms",
+          "contentLink": "/tutorial/algorithmssorting.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/data.png"
+        },
+        {
+          "id": 38,
+          "category": "algorithms",
+          "titel": "Searching Algorithms",
+          "contentLink": "/tutorial/algorithmssearching.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/data.png"
+        },
+        {
+          "id": 39,
+          "category": "algorithms",
+          "titel": "Recursion",
+          "contentLink": "/tutorial/algorithmsrecursion.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/data.png"
+        },
+        {
+          "id": 40,
+          "category": "algorithms",
+          "titel": "Dynamic Programming",
+          "contentLink": "/tutorial/algorithmsdynamic.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/data.png"
+        },
+        {
+          "id": 41,
+          "category": "algorithms",
+          "titel": "Graph Algorithms",
+          "contentLink": "/tutorial/algorithmsgraph.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/data.png"
+        }
+      ],
       "software": [
         {
           "id": 9,
@@ -88,9 +307,43 @@
           "titel": "react native 20 questions",
           "contentLink": "/tutorial/reactnativeui.md",
           "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/react.png"
-        }  
+        },
+        {
+          "id": 42,
+          "category": "software",
+          "titel": "Git Version Control",
+          "contentLink": "/tutorial/softwaregit.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/tech.png"
+        },
+        {
+          "id": 43,
+          "category": "software",
+          "titel": "Docker",
+          "contentLink": "/tutorial/softwaredocker.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/tech.png"
+        },
+        {
+          "id": 44,
+          "category": "software",
+          "titel": "CI/CD Pipelines",
+          "contentLink": "/tutorial/softwareci-cd.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/tech.png"
+        },
+        {
+          "id": 45,
+          "category": "software",
+          "titel": "Software Testing",
+          "contentLink": "/tutorial/softwaretesting.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/tech.png"
+        },
+        {
+          "id": 46,
+          "category": "software",
+          "titel": "Design Patterns",
+          "contentLink": "/tutorial/softwaredesign.md",
+          "image": "https://raw.githubusercontent.com/mostafa-sultan/slums/main/data/images/tech.png"
+        }
       ]
-       
-    } 
+    }
   }
-] 
+]
